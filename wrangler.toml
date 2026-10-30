@@ -1,0 +1,10 @@
+name = "gacha-pulse"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-31"
+
+# Before deploying with Wrangler, replace the placeholder below with your actual D1 database ID.
+# If configuring the binding in Cloudflare Dashboard instead, ensure the binding variable is named DB.
+[[d1_databases]]
+binding = "DB"
+database_name = "REPLACE_WITH_YOUR_D1_DATABASE_NAME"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
